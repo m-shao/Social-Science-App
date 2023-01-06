@@ -7,11 +7,16 @@
 
 li{
   list-style-type: none;
+  text-decoration: none;
+} 
+
+a{
+  text-decoration: none;
 }
 
 body{
   background-color: black;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 
 .hero{
@@ -22,7 +27,7 @@ body{
 .background{
   width: 100vw;
   height: 100vh;
-  background-image: url("./images/AnthroImage.png");
+  /* background-image: url("./images/AnthroImage.png"); */
   transform: scale(1);
   background-position: center;
   background-size: cover;
@@ -64,6 +69,7 @@ body{
   font-size: 1.5rem;
   font-weight: normal;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .nav-links::after{
@@ -117,6 +123,7 @@ body{
   flex-grow: 1;
   height: 300vh;
   z-index: 1000;
+  transform: translate("100%");
 }
 
 .gradient-div{
@@ -125,4 +132,10 @@ body{
   position: absolute;
   bottom: 0;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.temp{
+  position: absolute;
+  top: 0;
+  left: 0;
 }

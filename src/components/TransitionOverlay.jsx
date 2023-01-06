@@ -1,4 +1,12 @@
+import gsap from "gsap"
+import { useEffect } from "react"
+
 function TransitionOverlay(props){
+    useEffect(() => {
+        let tl = gsap.timeline()
+          tl.fromTo('.overlay-items', {y:"0vh"}, {duration: 1, delay: 0.2, y: '100vh', stagger: {amount:1}, ease: "power1.out"})
+    }, [])
+
     let countArr = []
     for(let i=0; i<props.count ; i++){
         countArr.push(i)
@@ -14,14 +22,5 @@ function TransitionOverlay(props){
         </div>
     )       
 }
-
-// function TransitionAnimation(){
-//     tl.fromTo('.overlay-items', {y:0}, {duration: 1.5, delay: 1, y: '100%', stagger: {amount:0.5}, ease: "power1.out"})
-//       // tl.to('.overlay-items', {duration: 1.5, y: '0%', stagger: {amount:0.5}, ease: "power1.out"})
-//       // tl.to('.background-overlay', {backgroundImage:'none', duration:0.1})
-//       // tl.to('.background', {backgroundImage:`url(${Psych})`, duration:1},)
-//       // tl.set('.title', {attr: { src: PsychTitle}})
-//       // tl.to('.overlay-items', {duration: 1.5, y: '-100%', stagger: {amount:0.5}, ease: "power1.out"})
-// }
 
 export default TransitionOverlay;

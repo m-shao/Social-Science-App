@@ -4,6 +4,7 @@ import SocTitle from '../images/Sociologie.png';
 
 import AnthroBack from '../images/AnthroImage.png';
 import PsychBack from '../images/PsychImage.png';
+import SocBack from '../images/SocImage.png';
 
 export const scienceTitles = [AnthroTitle, PsychTitle, SocTitle]
-export const scienceBackgrounds = [AnthroBack, PsychBack, PsychBack]
+export const scienceBackgrounds = [AnthroBack, PsychBack, SocBack]

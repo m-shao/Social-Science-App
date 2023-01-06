@@ -1,5 +1,6 @@
 import logo from '../images/logo.svg';
 import { useScience, useScienceUpdate } from '../context/ScienceContext';
+import { Link } from 'react-router-dom';
 
 function NavigationBar(){
     let page = useScience()
@@ -24,9 +25,15 @@ function NavigationBar(){
     return(
         <div className="nav">
             <ul className="nav-container">
-                <li className="nav-links" onClick={() => changeScience(link1)}>{ link1 }</li>
+                <li className="nav-links" onClick={() => changeScience(link1)}>
+                    <Link to={`/${link1}`}>{ link1 }</Link>
+                </li>
+                
                 <img src={ logo } alt="" className='logo'/>
-                <li className="nav-links" onClick={() => changeScience(link2)}>{ link2 }</li>
+
+                <li className="nav-links" onClick={() => changeScience(link2)}>
+                    <Link to={`/${link2}`}>{ link2 }</Link>
+                </li>
             </ul>
         </div>
     )
