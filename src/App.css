@@ -5,6 +5,30 @@
   font-family: 'Montserrat';
 }
 
+h1{
+  font-family: 'Playfair Display';
+  font-weight: 400;
+  font-size: 7rem;
+}
+
+h2{
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+h3{
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  font-size: 3rem;
+}
+
+p{
+  font-family: 'montserrat';
+  font-size: 1.5rem;
+  line-height: 170%;
+}
+
 li{
   list-style-type: none;
   text-decoration: none;
@@ -110,6 +134,8 @@ body{
   position: absolute;
   top: 0;
   left: 0;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .overlay-list{
@@ -132,4 +158,54 @@ body{
   position: absolute;
   bottom: 0;
   background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+}
+
+.article-container{
+  margin-top: 6rem;
+  /* position: absolute;
+  z-index: 3000; */
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+
+.article-div{
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title-div{
+  text-align: center;
+}
+
+.two-column{
+  margin-top: 7rem;
+  display: flex;
+  flex-direction: row;
+  gap: 3rem;
+}
+
+.article-section{
+  margin-top: 7rem;
+  display: flex;
+  gap: 3rem;
+  flex-direction: column;
+}
+
+.sub-para{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.charles-darwin-main img{
+  width: 25vw;
+  object-fit: contain;
+}
+
+.charles-darwin-young img{
+  width: 20vw;
+  object-fit: contain;
 }

@@ -1,0 +1,35 @@
+.article-selection-div{
+    /* position: absolute;
+    z-index: 1000; */
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.article-selection{
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    margin-top: 5rem;
+}
+
+.article-selector{
+    opacity: 30%;
+}
+
+.article-selector img{
+    width: 20vw;
+}
+
+.article-selector:hover{
+    scale: 1.03;
+    transition: scale 0.3s ease;
+    opacity: 40%;
+}
+
+#selected{
+    opacity: 100%;
+    scale: 1.03;
+}
+    

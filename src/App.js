@@ -2,8 +2,8 @@ import './App.css';
 import { Routes, Route } from 'react-router-dom';
 
 import { ScienceProvider } from './context/ScienceContext'
+import { AnthroArticleProvider } from './context/AnthroArticleContext'
 
-import TransitionOverlay from './components/TransitionOverlay';
 import NavigationBar from './components/NavigationBar';
 import HeroBackground from './components/HeroBackground';
 
@@ -21,10 +21,13 @@ function App() {
           <NavigationBar />
         </ScienceProvider>
       </div>
-      <TransitionOverlay count="10"/>
       <div className="content">
         <Routes>
-          <Route path="/Anthropologie" element={<Anthropologie />} />
+          <Route path="/Anthropologie" element={
+          <><AnthroArticleProvider>
+            <Anthropologie />
+            </AnthroArticleProvider></>} />
+
           <Route path="/Psychologie" element={<Psychologie />} />
           <Route path="/Sociologie" element={<Sociologie />} />
         </Routes>
