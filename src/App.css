@@ -23,6 +23,12 @@ h3{
   font-size: 3rem;
 }
 
+h4{
+  font-family: 'Playfair Display';
+  font-weight: 600;
+  font-size: 2rem;
+}
+
 p{
   font-family: 'montserrat';
   font-size: 1.5rem;
@@ -41,6 +47,45 @@ a{
 body{
   background-color: black;
   overflow-x: hidden;
+}
+
+.intro{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: 900;
+  left: 0;
+  top: 0;
+  background-color: rgb(5, 5, 5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-container{
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  text-align: center;
+  width: 65vw;
+}
+
+.arrow{
+  position: absolute;
+  background-color: white;
+  width: 2rem;
+  height: 7rem;
+  right: 3rem;
+}
+
+.back-arrow{
+  width: 4rem;
+  height: 1rem;
+  position: absolute;
+  background-color: white;
+  top: 2rem;
+  left: 7rem;
+  z-index: 800;
 }
 
 .hero{
@@ -182,9 +227,10 @@ body{
 
 .two-column{
   margin-top: 7rem;
-  display: flex;
-  flex-direction: row;
-  gap: 3rem;
+}
+
+.two-column p{
+  margin-top: 2rem;
 }
 
 .article-section{
@@ -198,14 +244,23 @@ body{
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  text-align: justify;
 }
 
 .charles-darwin-main img{
   width: 25vw;
   object-fit: contain;
+  float: left;
+  margin-right: 3rem;
 }
 
 .charles-darwin-young img{
   width: 20vw;
-  object-fit: contain;
+  float: right;
+  margin: 2rem;
+  /* object-fit: contain; */
+}
+
+.banner-image{
+  width: 100%;
 }

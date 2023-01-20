@@ -11,6 +11,12 @@ import CharlesDarwinYoung from '../pages/anthropologie/anthropologie-images/Char
 import DarwinsFinches from '../pages/anthropologie/anthropologie-images/DarwinsFinches.png'
 import HMSBeagle from '../pages/anthropologie/anthropologie-images/HMSBeagle.png'
 
+import BipolarHeader from '../pages/psychologie/psychologie-images/BipolarHeader.png'
+import BipolarBrain from '../pages/psychologie/psychologie-images/BipolarBrain.png'
+import BipolarHappySad from '../pages/psychologie/psychologie-images/BipolarHappySad.png'
+import BipolarMedicine from '../pages/psychologie/psychologie-images/BipolarMedicine.png'
+import BipolarTherapy from '../pages/psychologie/psychologie-images/BipolarTherapy.png'
+
 export const scienceTitles = [AnthroTitle, PsychTitle, SocTitle]
 export const scienceBackgrounds = [AnthroBack, PsychBack, SocBack]
 
@@ -19,4 +25,12 @@ export const charlesDarwinImages = {
     young: CharlesDarwinYoung,
     finch: DarwinsFinches,
     beagle: HMSBeagle
+}
+
+export const bipolarImages = {
+    header: BipolarHeader,
+    brain: BipolarBrain,
+    happySad: BipolarHappySad,
+    medicine: BipolarMedicine,
+    therapy: BipolarTherapy
 }
