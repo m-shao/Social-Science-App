@@ -9,11 +9,10 @@ function CharlesDarwinArticle() {
             <h1>Charles Darwin</h1>
             <h2>Le Père d'évolution</h2>
         </div>
-        <div className="two-column" style={{marginTop:'10rem'}}>
+        <div className="two-column under-title">
             <div class="charles-darwin-main"><img src={charlesDarwinImages.main} alt="" /></div>
             <h3>Le Penseur D’un Generation</h3>
             <p>&emsp;&emsp;Charles Darwin est sûrement une des figures scientifiques les plus influentes et reconnaissables dans le monde au cours d’histoire. On lui voit parmi les noms de Einstein et Newton, son nom est reconnu tout autour du monde. Il est connu comme le père d'évolution et a créé la fondation pour la domaine d’Anthropologie. Il est un penseur incroyable et controversé. On racontera sa vie et ses accomplissements pour reconnaître son influence sur notre société moderne.</p>
-
         </div>
         <div className='article-section'>
           <h3>Début de la Vie - L’Enfance</h3>
@@ -30,7 +29,7 @@ function CharlesDarwinArticle() {
           <h3>Le Travail de la Vie - Les Découverts Fameuse</h3>
           <p>&emsp;&emsp;En 1831, Darwin part en voyage sur le HMS Beagle comme naturaliste, son rôle était de surveiller et tracer la carte d'Amérique du sud. </p>
           <img src={charlesDarwinImages.beagle} alt="" className='banner-image'/>
-          <p>&&emsp;&emsp;Pendant son voyage, il survenait les islands comme Galápagos ou il trouvait les spécimens, envoyait les fossiles des animaux extinct en angleterre, observait la variation de la biodiversité dans les forêts. Quand il y retournait , il travaillait avec plusieurs écologistes, biologistes, paléoanthropologues, pour étudier les samples qu’il a collectionné. L' analyse des plantes et des animales lui tournait à questionner l’origine des espèces et comment ils changent au cours du temps. Cela est ce qui a inspiré Darwin l'idée d'évolution et la sélection naturelle. En 1859, Darwin publie ses découvertes dans le livre, «the origin of species», qui a ce temps là était tellement controversé, c'était rien comme personne a vue ou penser jusqu'à maintenant. Darwin vivra longtemps après le publication de son livre et continuera sa recherche et l'avancée de la domaine pour plusieurs années après. Il est mort à l'âge de 73 en 1882. Il est enterré à L'abbaye de Westminster à Londres, en Angleterre (National Geographic Society, 2022).</p>
+          <p>&emsp;&emsp;Pendant son voyage, il survenait les islands comme Galápagos ou il trouvait les spécimens, envoyait les fossiles des animaux extinct en angleterre, observait la variation de la biodiversité dans les forêts. Quand il y retournait , il travaillait avec plusieurs écologistes, biologistes, paléoanthropologues, pour étudier les samples qu’il a collectionné. L' analyse des plantes et des animales lui tournait à questionner l’origine des espèces et comment ils changent au cours du temps. Cela est ce qui a inspiré Darwin l'idée d'évolution et la sélection naturelle. En 1859, Darwin publie ses découvertes dans le livre, «the origin of species», qui a ce temps là était tellement controversé, c'était rien comme personne a vue ou penser jusqu'à maintenant. Darwin vivra longtemps après le publication de son livre et continuera sa recherche et l'avancée de la domaine pour plusieurs années après. Il est mort à l'âge de 73 en 1882. Il est enterré à L'abbaye de Westminster à Londres, en Angleterre (National Geographic Society, 2022).</p>
         </div>
         <div className='article-section'>
           <h3>Darwinisme - La Théorie d'évolution et la sélection Naturelle</h3>
@@ -41,6 +40,7 @@ function CharlesDarwinArticle() {
           <h3>Son Effet sur la Domaine</h3>
           <p>&emsp;&emsp;Pendant le temps de Darwin, ses idées ont étaient tellement controversées, c’est une idée qui allait contre l'idée du créationnisme total en Europe(qui pour la plupart était chrétien/catholique). Dans notre société moderne, l'idée d'évolution est beaucoup plus commune et acceptée. Les idées de Darwin a changé notre perspective sur le monde et l’histoire et a pratiquement créé son propre domaine de science. Ses idées sont encore discutées aujourd'hui et avec plus de recherche, on voit que ses idées sont encore pertinentes et correctes d' un point de vue moderne. Il est le père d'évolution et est un des scientifiques le plus influents dans l’histoire, son nom sera enseigné plus les milliers d'années qui viennent, même quand nous comme espèce évoluonse.</p>
         </div>
+        <div className='footer'></div>
     </div>
   )
 }

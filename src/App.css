@@ -8,19 +8,19 @@
 h1{
   font-family: 'Playfair Display';
   font-weight: 400;
-  font-size: 7rem;
+  font-size: 5rem;
 }
 
 h2{
   font-family: 'Playfair Display';
-  font-weight: 600;
+  font-weight: 400;
   font-size: 2rem;
 }
 
 h3{
   font-family: 'Playfair Display';
   font-weight: 600;
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 h4{
@@ -31,8 +31,8 @@ h4{
 
 p{
   font-family: 'montserrat';
-  font-size: 1.5rem;
-  line-height: 170%;
+  font-size: 1.2rem;
+  line-height: 180%;
 }
 
 li{
@@ -215,7 +215,8 @@ body{
 }
 
 .article-div{
-  width: 60%;
+  width: 50%;
+  min-width: 50rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -225,18 +226,22 @@ body{
   text-align: center;
 }
 
+.under-title{
+  margin-top: 10rem;
+}
+
 .two-column{
   margin-top: 7rem;
 }
 
 .two-column p{
-  margin-top: 2rem;
+  margin-top: 1.5rem;
 }
 
 .article-section{
   margin-top: 7rem;
   display: flex;
-  gap: 3rem;
+  gap: 2rem;
   flex-direction: column;
 }
 
@@ -248,7 +253,8 @@ body{
 }
 
 .charles-darwin-main img{
-  width: 25vw;
+  width: 20vw;
+  min-width: 20rem;
   object-fit: contain;
   float: left;
   margin-right: 3rem;
@@ -256,6 +262,7 @@ body{
 
 .charles-darwin-young img{
   width: 20vw;
+  min-width: 20rem;
   float: right;
   margin: 2rem;
   /* object-fit: contain; */
@@ -263,4 +270,40 @@ body{
 
 .banner-image{
   width: 100%;
+}
+
+.footer{
+  height: 15rem;
+}
+
+
+
+@media (max-width: 1650px) {
+  h1{
+    font-size: 3.8rem;
+  }
+
+  h2{
+    font-size: 1.5rem;
+  }
+
+  h3{
+    font-size: 2rem;
+  }
+
+  p{
+    font-size: 1rem;
+  }
+
+  .under-title{
+    margin-top: 6rem;
+  }
+
+  .article-section{
+    margin-top: 4rem;
+  }
+
+  .two-column{
+    margin-top: 4rem;
+  }
 }
