@@ -38,6 +38,7 @@ p{
 li{
   list-style-type: none;
   text-decoration: none;
+  font-size: 1.2rem;
 } 
 
 a{
@@ -47,6 +48,16 @@ a{
 body{
   background-color: black;
   overflow-x: hidden;
+}
+
+.list li{
+  list-style-type: disc;
+  margin-left: 3rem;
+  margin-bottom: 0.8rem;
+}
+
+#sub-list{
+  list-style-type: none;
 }
 
 .intro{
@@ -252,7 +263,21 @@ body{
   text-align: justify;
 }
 
-.charles-darwin-main img{
+.img-left div img{
+  width: 20vw;
+  min-width: 20rem;
+  float: left;
+  margin-right: 3rem;
+}
+
+.img-right div img{
+  width: 20vw;
+  min-width: 20rem;
+  float: right;
+  margin: 2rem;
+}
+
+/* .charles-darwin-main img{
   width: 20vw;
   min-width: 20rem;
   object-fit: contain;
@@ -265,15 +290,14 @@ body{
   min-width: 20rem;
   float: right;
   margin: 2rem;
-  /* object-fit: contain; */
-}
+} */
 
 .banner-image{
   width: 100%;
 }
 
 .footer{
-  height: 15rem;
+  height: 10rem;
 }
 
 
@@ -291,9 +315,17 @@ body{
     font-size: 2rem;
   }
 
+  h4{
+    font-size: 1.5rem;
+  }
+
   p{
     font-size: 1rem;
   }
+
+  li{
+    font-size: 1rem;
+  } 
 
   .under-title{
     margin-top: 6rem;

@@ -11,6 +11,10 @@ import CharlesDarwinYoung from '../pages/anthropologie/anthropologie-images/Char
 import DarwinsFinches from '../pages/anthropologie/anthropologie-images/DarwinsFinches.png'
 import HMSBeagle from '../pages/anthropologie/anthropologie-images/HMSBeagle.png'
 
+import CultureGroup from '../pages/anthropologie/anthropologie-images/CultureGroup.png'
+import CultureShadow from '../pages/anthropologie/anthropologie-images/CultureShadow.png'
+import CultureYoung from '../pages/anthropologie/anthropologie-images/CultureYoung.png'
+
 import BipolarHeader from '../pages/psychologie/psychologie-images/BipolarHeader.png'
 import BipolarBrain from '../pages/psychologie/psychologie-images/BipolarBrain.png'
 import BipolarHappySad from '../pages/psychologie/psychologie-images/BipolarHappySad.png'
@@ -26,6 +30,13 @@ export const charlesDarwinImages = {
     finch: DarwinsFinches,
     beagle: HMSBeagle
 }
+
+export const cultureImages = {
+    group: CultureGroup,
+    shadow: CultureShadow,
+    young: CultureYoung,
+}
+
 
 export const bipolarImages = {
     header: BipolarHeader,
