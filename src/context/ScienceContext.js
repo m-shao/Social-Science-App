@@ -1,32 +1,32 @@
-import React, {useContext, useState} from "react";
+import React, { useContext, useState } from 'react';
 
-const ScienceContext = React.createContext()
-const ScienceUpdateContext = React.createContext()
+const ScienceContext = React.createContext();
+const ScienceUpdateContext = React.createContext();
 
-export function useScience(){
-    return useContext(ScienceContext)
+export function useScience() {
+  return useContext(ScienceContext);
 }
 
-export function useScienceUpdate(newScience){
-    return useContext(ScienceUpdateContext)
+export function useScienceUpdate(newScience) {
+  return useContext(ScienceUpdateContext);
 }
 
 export function ScienceProvider({ children }) {
-    let {pathname} = window.location
-    pathname = pathname.slice(1)
+  let { pathname } = window.location;
+  pathname = pathname.slice(1);
 
-    const [science, setScience] = useState(pathname)
+  const [science, setScience] = useState('Anthropologie');
 
-    function changeScience(newScience) {
-        console.log(newScience)
-        setScience(science => newScience)
-    }
-    
-    return(
-        <ScienceContext.Provider value={science}>
-            <ScienceUpdateContext.Provider value={changeScience}>
-                {children}
-            </ScienceUpdateContext.Provider>
-        </ScienceContext.Provider>
-    )
+  function changeScience(newScience) {
+    console.log(newScience);
+    setScience((science) => newScience);
+  }
+
+  return (
+    <ScienceContext.Provider value={science}>
+      <ScienceUpdateContext.Provider value={changeScience}>
+        {children}
+      </ScienceUpdateContext.Provider>
+    </ScienceContext.Provider>
+  );
 }
