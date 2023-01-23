@@ -26,15 +26,20 @@ function App() {
       </div>
       <div className="content">
         <Routes>
-          <Route path="/Anthropologie" element={
-            <><AnthroArticleProvider>
+          <Route path="/" element={
+            <AnthroArticleProvider>
               <Anthropologie />
-            </AnthroArticleProvider></>
+            </AnthroArticleProvider>
+          }/>
+          <Route path="/Anthropologie" element={
+            <AnthroArticleProvider>
+              <Anthropologie />
+            </AnthroArticleProvider>
           }/>
           <Route path="/Psychologie" element={
-            <><PsychArticleProvider>
+            <PsychArticleProvider>
               <Psychologie />
-            </PsychArticleProvider></>
+            </PsychArticleProvider>
           }/>
           <Route path="/Sociologie" element={<Sociologie />} />
         </Routes>
