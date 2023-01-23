@@ -21,6 +21,13 @@ import BipolarHappySad from '../pages/psychologie/psychologie-images/BipolarHapp
 import BipolarMedicine from '../pages/psychologie/psychologie-images/BipolarMedicine.png'
 import BipolarTherapy from '../pages/psychologie/psychologie-images/BipolarTherapy.png'
 
+import LonelyCup from "../pages/psychologie/psychologie-images/LonelyCup.png"
+import LonelyBrain from "../pages/psychologie/psychologie-images/LonelyBrain.png"
+
+import SociologieClone from '../pages/sociologie/sociologie-images/SociologieClone.png';
+import SociologieEx from '../pages/sociologie/sociologie-images/SociologieEx.png';
+import SociologiePaint from '../pages/sociologie/sociologie-images/SociologiePaint.png';
+
 export const scienceTitles = [AnthroTitle, PsychTitle, SocTitle]
 export const scienceBackgrounds = [AnthroBack, PsychBack, SocBack]
 
@@ -37,11 +44,21 @@ export const cultureImages = {
     young: CultureYoung,
 }
 
-
 export const bipolarImages = {
     header: BipolarHeader,
     brain: BipolarBrain,
     happySad: BipolarHappySad,
     medicine: BipolarMedicine,
     therapy: BipolarTherapy
+}
+
+export const lonelyImages = {
+    cup: LonelyCup,
+    brain: LonelyBrain
+}
+
+export const sociologieImages = {
+    clone: SociologieClone,
+    ex: SociologieEx,
+    paint: SociologiePaint
 }

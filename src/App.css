@@ -83,18 +83,12 @@ body{
 
 .arrow{
   position: absolute;
-  background-color: white;
-  width: 2rem;
-  height: 7rem;
   right: 3rem;
 }
 
 .back-arrow{
-  width: 4rem;
-  height: 1rem;
   position: absolute;
-  background-color: white;
-  top: 2rem;
+  top: 2.5rem;
   left: 7rem;
   z-index: 800;
 }
@@ -242,7 +236,7 @@ body{
 }
 
 .two-column{
-  margin-top: 7rem;
+  margin-top: 5.5rem;
 }
 
 .two-column p{
@@ -250,10 +244,14 @@ body{
 }
 
 .article-section{
-  margin-top: 7rem;
+  margin-top: 5.5rem;
   display: flex;
   gap: 2rem;
   flex-direction: column;
+}
+
+.center-title{
+  text-align: center;
 }
 
 .sub-para{
@@ -277,20 +275,6 @@ body{
   margin: 2rem;
 }
 
-/* .charles-darwin-main img{
-  width: 20vw;
-  min-width: 20rem;
-  object-fit: contain;
-  float: left;
-  margin-right: 3rem;
-}
-
-.charles-darwin-young img{
-  width: 20vw;
-  min-width: 20rem;
-  float: right;
-  margin: 2rem;
-} */
 
 .banner-image{
   width: 100%;
