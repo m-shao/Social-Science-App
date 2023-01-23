@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Social-Science-App/static/css/main.749c2f72.css",
-    "main.js": "/Social-Science-App/static/js/main.39bebfef.js",
+    "main.js": "/Social-Science-App/static/js/main.35dfbf6f.js",
     "static/media/SocImage.png": "/Social-Science-App/static/media/SocImage.75c2d307e4502f107782.png",
     "static/media/AnthroImage.png": "/Social-Science-App/static/media/AnthroImage.c3e92124e699006cf74c.png",
     "static/media/CharlesDarwinMain.png": "/Social-Science-App/static/media/CharlesDarwinMain.be2e4c47dc8ad5d26987.png",
@@ -31,10 +31,10 @@
     "static/media/logo.svg": "/Social-Science-App/static/media/logo.329ef7eadeebd4e404cb760ce9e6ca2c.svg",
     "index.html": "/Social-Science-App/index.html",
     "main.749c2f72.css.map": "/Social-Science-App/static/css/main.749c2f72.css.map",
-    "main.39bebfef.js.map": "/Social-Science-App/static/js/main.39bebfef.js.map"
+    "main.35dfbf6f.js.map": "/Social-Science-App/static/js/main.35dfbf6f.js.map"
   },
   "entrypoints": [
     "static/css/main.749c2f72.css",
-    "static/js/main.39bebfef.js"
+    "static/js/main.35dfbf6f.js"
   ]
 }
