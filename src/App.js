@@ -4,6 +4,7 @@ import { Routes, Route } from 'react-router-dom';
 import { ScienceProvider } from './context/ScienceContext'
 import { AnthroArticleProvider } from './context/AnthroArticleContext'
 import { PsychArticleProvider } from './context/PsychArticleContext'
+import Citations from './components/Citations';
 
 import NavigationBar from './components/NavigationBar';
 import HeroBackground from './components/HeroBackground';
@@ -24,6 +25,7 @@ function App() {
           <NavigationBar />
         </ScienceProvider>
       </div>
+      <Citations/>
       <div className="content">
         <Routes>
           <Route path="/" element={

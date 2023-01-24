@@ -63,7 +63,7 @@ body{
 .intro{
   width: 100vw;
   height: 100vh;
-  position: absolute;
+  position: fixed;
   z-index: 900;
   left: 0;
   top: 0;
@@ -224,7 +224,7 @@ body{
   min-width: 50rem;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  align-items: center;
 }
 
 .title-div{
@@ -322,4 +322,25 @@ body{
   .two-column{
     margin-top: 4rem;
   }
+}
+
+
+.citation-button{
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  z-index: 1000;
+}
+
+.citation-page{
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  z-index: 900;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  overflow-y: scroll;
 }
